@@ -9,7 +9,7 @@ redirect_from:
 
 About Me
 ======
-My name is Isabel Lockhart and I am an undergraduate student at DePaul University in Chicago. I am majoring in Astrophysics with a minor in Mathematics and I am set to graduate in spring of 2027.
+My name is Isabel Lockhart and I am an undergraduate student at DePaul University in Chicago. I am majoring in Astrophysics with a minor in Mathematics and I am set to graduate in spring of 2027. Originally from Washington, I moved to Chicago in 2023 for university. Outside of academics, I love to spend time reading, baking cookies, and watching hockey! 
 
 Getting started
 ======
