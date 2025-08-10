@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "an_il_halos.png"
   name             : "Isabel Lockhart"
-  pronouns         : # example: "she/her"  
+  pronouns         : "she/her"  
   bio              : "Astrophysics undergraduate"
   location         : "Chicago, IL"
   employer         : "DePaul University"
