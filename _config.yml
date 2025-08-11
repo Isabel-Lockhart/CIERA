@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Isabel Lockhart"
+title                    : "Isabel Lockhart - Home"
 title_separator          : "-"
 name                     : &name "Isabel Lockhart"
 description              : &description "Junior at DePaul University"
