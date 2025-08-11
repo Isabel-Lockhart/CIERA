@@ -10,9 +10,9 @@
 main:
   #- title: "Talks"
    # url: /talks/
-  - title: "Publications"
-    url: /publications/  
-  - title: "CIERA REU Project"
+  #- title: "Publications"
+   # url: /publications/  
+  - title: "CIERA REU Research"
     url: /cierareu/
 
   #- title: "Teaching"
