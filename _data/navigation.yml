@@ -10,8 +10,8 @@
 main:
   #- title: "Talks"
    # url: /talks/
-  - title: "DePaul Research"
-    url: /depaul/  
+  - title: "Publications"
+    url: /publications/  
   - title: "CIERA REU Project"
     url: /cierareu/
 
