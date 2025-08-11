@@ -12,7 +12,9 @@ main:
     url: /CIERAREU/
 
   - title: "DePaul Research"
-    url: /depaul/    
+    url: /depaul/  
+  - title: "CIERA REU Project"
+    url: /reu/
 
   #- title: "Teaching"
    # url: /teaching/    
