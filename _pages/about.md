@@ -13,5 +13,5 @@ My name is Isabel Lockhart and I am an undergraduate student at DePaul Universit
 
 Background
 ======
-Freshman year at DePaul, I became greatly interested in the universe at a large scale. The following summer I did research in computational astrophysics learning about star formation through the IllustrisTNG 300-1 simulation. 
+Freshman year at DePaul, I became greatly interested in the universe at a large scale. The following summer I did research in computational astrophysics learning about star formation through the IllustrisTNG 300-1 simulation. Wanting to learn more about other branches of research, I became interested in oberservational astrophysics, leading me to apply for the CIERA REU. 
 
