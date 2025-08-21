@@ -5,23 +5,60 @@ permalink: /cierareu/
 author_profile: true
 ---
 
+Abstract <br><br>
+The Nancy Grace Roman Space Telescope will use a coronagraph to block the glare of stars so
+scientists can image orbiting planets that would otherwise be hidden. In preparation for this, we
+examine potential reference stars that appear to be suitable candidates for calibrating the telescope.
+We do so using the data of stars acquired through the Gemini Observatory Archive at NSF NOIRLab
+and processed using DRAGONS (Data Reduction for Astronomy from Gemini Observatory North
+and South). One such star is Alpha Cephei, the current focus of my research. Alpha Cephei is the
+brightest star in the Cepheus constellation, making it one ideal target for calibrating the Roman
+Space Telescope - provided it can be verified that it is not a part of a binary star system. We use
+data reduction techniques to examine these reference stars and determine if they are part of a binary
+system, as well as our degree of certainty in the result. Should we come to the conclusion that a star
+is suitable for observation, then it may be added to the list of vetted targets for the Roman Space
+Telescope. The approved stars will later be used to calibrate the telescope for accurate observations.
+
 Introduction <br><br>
 
-Exoplanets, planets that exist outside of our solar system, are often found orbiting stars. However, imaging these planets can be challenging as the glare of 
-these bright stars makes it difficult to see what is nearby. That glare can be reduced by a device called a coronagraph, one of which will be equipped on the 
-Nancy Grace Roman Space Telescope. Unlike traditional coronagraphs that use an opaque disk to entirely block the light of the star, the coronagraph aboard the 
-Roman Space Telescope is designed to create destructive interference with the light of the star creating a dark hole for the telescope to image. This interference 
-drastically reduces the glare from the star while still allowing light from orbiting planets to be seen, while deformable mirrors are used to correct distortions 
-that may be caused as a result. Because of the deformable mirrors and other technology that makes up the Roman Space Telescope’s coronagraph, it is projected to be 
-two to three orders of magnitude more powerful than any other space-flown coronagraph. <br><br>
+Exoplanets, planets that exist outside of our solar system, are often found orbiting stars. However, imaging these
+planets can be challenging as the glare of these bright stars makes it difficult to see what is nearby. That glare can be
+reduced by a device called a coronagraph, one of which will be equipped on the Nancy Grace Roman Space Telescope.
+Unlike a traditional coronagraph that uses an opaque disk to completely block the light of the star, the coronagraph
+aboard the Roman Space Telescope is designed to create destructive interference with the light of the star (V. P.
+Bailey et al. 2023). This destructive interference creates a dark hole for the telescope to image, reducing the glare
+and allowing light from orbiting planets to be seen. Deformable mirrors are used to correct distortions that may be
+caused as a result of such interference (V. P. Bailey et al. 2023). The coronagraph also uses a series of masks in order
+to promote starlight suppression. Due to the deformable mirrors, masks, and other technological advancements that
+make up the Roman Space Telescope coronograph, it is projected to have detection limits that are several orders of
+magnitude more powerful than any other space-flown coronagraph (V. P. Bailey et al. 2023). <br><br>
 
-The enhanced sensitivity of the coronagraph makes it a very powerful instrument, but it also makes it more susceptible to outside light sources. Because of this, it 
-is imperative that the stars being imaged by the telescope are not binary stars. A companion star being present causes there to be additional light in the dark hole 
-created by the coronagraph, impacting the telescope’s ability to see exoplanets. Thus, reference star vetting is necessary to ensure each science target is a single 
-star and not a part of a binary system. In order to compile an accurate and deep dataset for each of these target stars, one must use the data from multiple instruments 
-in order to optimize the likelihood of finding a potential companion star. The Gemini Observatory’s NIRI is one such instrument. <br><br>
+The enhanced sensitivity of the coronagraph makes it a very powerful instrument, but it also makes it more susceptible
+to noise from outside light sources. Because of this, it is imperative that the telescope remain calibrated as it makes
+observations. Throughout Roman’s multiple-day exposures, stellar noise must be corrected. This can be done by
+periodically slewing to a reference star, recalibrating the telescope, and slewing back to the target star (L. Pogorelyuk
+et al. 2022). As a result, the reference stars being used for this calibration must not be binary stars. The presence of a
+companion star causes additional light in the dark hole, interfering with the calibration (S. G. Wolff et al. 2024). Thus,
+reference star vetting is necessary to ensure each reference target is a single star and not part of a binary system. In
+order to compile an accurate and deep dataset for each of these reference stars, one must use the data from multiple
+instruments in order to optimize the likelihood of finding a potential companion star. The Gemini Observatory’s NIRI
+is one such instrument. <br><br>
 
-While bright stars cause complications relating to imaging exoplanets, they are also entirely necessary as their light makes the exoplanets visible. Alpha Cephei, being 
-the brightest star in the Cepheus constellation, fits this criteria perfectly making it a reference star candidate. To ensure that Alpha Cephei is not a binary star, we 
-utilize data reduction techniques to clean and analyze the images taken by the Gemini Observatory's NIRI.
+We utilize data reduction techniques to clean images of stars taken by the NIRI that have yet to be analyzed. Alpha
+Cephei is one example of a NIRI observed star that has the potential to be a reference star. So, we go through the
+process of data reduction to ensure that Alpha Cephei is not a binary star and could be a suitable reference star. <br><br>
+
+Methods <br><br>
+
+Our data reduction process can be broken down into three main steps: (i) baseline data processing, (ii) psfsubtraction, and (iii) certainty analysis. Baseline data processing involves processing the raw images taken by the
+NIRI to correct for any manufacturing defects in the telescope that may affect the way an image looks. For the NIRI
+data, we use the DRAGONS software to complete this step (K. Labrie et al. 2023; C. Simpson et al. 2024). <br><br>
+
+As shown in Figure 1, we use dark-frame subtraction and flat-fielding to make these corrections. Dark-frame
+subtraction involves images that were taken by the telescope with the lens covered, or darks. The dark frames are
+then combined into a ‘master dark’ that, once subtracted from the science frames, correct for thermal noise created
+by electrons. Flat-fielding is a technique that uses images that were taken by the telescope as it was illuminated by
+a uniform light source, or flats. These flat frames are then combined into a ‘master flat’ that, once removed from the
+science frames, corrects for variation in the sensitivity of the pixels in the telescope. So, once the first step is complete,
+we are left with clean science images that show a more accurate picture of what the star actually looks like.<br><br>
 
